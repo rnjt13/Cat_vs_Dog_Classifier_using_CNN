@@ -16,7 +16,7 @@ mkdir -p mydir/subdir1/subdir2
 
 **This will create the directory mydir if it doesn't already exist, and then create subdir1 and subdir2 within it, even if subdir1 also doesn't exist. The -p option ensures that the whole hierarchy of directories is created in one step, without any errors.
 
-The command mkdir ~/. creates a hidden directory in the home directory of the current user. The tilde (~) character is a shortcut for the home directory, so ~/. is equivalent to /home/username/., where username is the name of the current user.
+The command "mkdir ~/." creates a hidden directory in the home directory of the current user. The tilde (~) character is a shortcut for the home directory, so ~/. is equivalent to /home/username/., where username is the name of the current user.
 Hidden directories are directories that do not appear in the normal directory listing. To view hidden directories, you need to use the ls -a command.
 Hidden directories are often used to store files that are not meant to be seen by other users, such as configuration files and temporary files.
 **
